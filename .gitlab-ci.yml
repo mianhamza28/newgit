@@ -2,13 +2,14 @@ image: alpine:latest
 
 pages:
   script:
-    - mkdir public
+    - mkdir -p public
     - cp index.html style.css public/
   artifacts:
     paths:
       - public
   only:
     - main
+
 
 
 
