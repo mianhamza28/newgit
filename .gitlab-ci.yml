@@ -6,8 +6,9 @@ pages:
     - cp index.html style.css public/
   artifacts:
     paths:
-      - "public"
+      - public
   only:
     - main
+
 
 
